@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+@layer base {
+    @font-face {
+        font-family: "Poppins";
+        src: url("../assets/fonts/svn-Poppins/SVN-Poppins-Regular.otf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+    @font-face {
+        font-family: "Poppins";
+        src: url("../assets/fonts/svn-Poppins/SVN-Poppins-SemiBold.otf") format("truetype");
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "Poppins";
+        src: url("../assets/fonts/svn-Poppins/SVN-Poppins-Medium.otf") format("truetype");
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+    @font-face {
+      font-family: "Poppins";
+      src: url("../assets/fonts/svn-Poppins/SVN-Poppins-Bold.otf") format("truetype");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+        font-family: "Poppins";
+        src: url("../assets/fonts/svn-Poppins/SVN-Poppins-ExtraBold.otf") format("truetype");
+        font-weight: 800;
+        font-style: normal;
+        font-display: swap;
+      }
+    @font-face {
+        font-family: "Poppins";
+        src: url("../assets/fonts/svn-Poppins/SVN-Poppins-Black.otf") format("truetype");
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+      }
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    a {
+      font-family: "Poppins", sans-serif !important;
+      transition: 0.3s all;
+    }
+  
+    body {
+      font-size: 16px;
+      line-height: 180%;
+    }
+ 
+  }
+  .slick-slide {
+    padding: 0 104px;
+  }
+  
+  .slick-list {
+    margin: 0 -6em !important;
+  }
