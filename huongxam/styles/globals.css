@@ -33,6 +33,13 @@
     }
     @font-face {
         font-family: "Poppins";
+        src: url("../assets/fonts/svn-Poppins/SVN-Poppins-ExtraBold.otf") format("truetype");
+        font-weight: 800;
+        font-style: normal;
+        font-display: swap;
+      }
+    @font-face {
+        font-family: "Poppins";
         src: url("../assets/fonts/svn-Poppins/SVN-Poppins-Black.otf") format("truetype");
         font-weight: 900;
         font-style: normal;
@@ -55,4 +62,11 @@
       line-height: 180%;
     }
  
+  }
+  .slick-slide {
+    padding: 0 104px;
+  }
+  
+  .slick-list {
+    margin: 0 -6em !important;
   }
